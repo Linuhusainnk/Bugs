@@ -17,7 +17,7 @@ const App = () => {
         contentContainerStyle={{flexGrow: 1, padding: responsiveScale(20)}}
         data={[1, 2, 3, 4, 5, 6, 7, 8]}
         renderItem={() => (
-          <Skeleton.GRoup>
+          <Skeleton.Group>
             <View style={styles.cardContainer}>
               <Skeleton>
                 <Text>Title</Text>
@@ -26,7 +26,7 @@ const App = () => {
                 <Text>Descriptoion Descriptoion Descriptoion Descriptoion</Text>
               </Skeleton>
             </View>
-          </Skeleton.GRoup>
+          </Skeleton.Group>
         )}
         ItemSeparatorComponent={<View style={{height: responsiveScale(20)}} />}
       />
